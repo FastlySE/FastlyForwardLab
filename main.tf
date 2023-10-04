@@ -47,7 +47,7 @@ provider "sigsci" {
 
   alerts {
     long_name              = "alert 1"
-    interval               = 5
+    interval               = 10
     threshold              = 2
     skip_notifications     = true
     enabled                = true
