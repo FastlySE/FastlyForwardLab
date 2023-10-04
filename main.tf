@@ -41,13 +41,13 @@ provider "sigsci" {
     enabled = "true"
     fields {
       name  = "path"
-      value = "/login/*"
+      value = "/login*"
     }
   }
 
   alerts {
     long_name              = "alert 1"
-    interval               = 10
+    interval               = 5
     threshold              = 2
     skip_notifications     = true
     enabled                = true
@@ -244,6 +244,9 @@ resource "sigsci_site_rule" "anomaly-attack" {
     type = "addSignal"
     signal = "site.anomaly-attack" 
   }
+    depends_on = [
+  sigsci_site_signal_tag.anomaly-attack
+  ]
 
 }
 
