@@ -1,0 +1,5 @@
+NGWAF_CORP="fastlyforward"
+NGWAF_SITE="sitename"
+NGWAF_EMAIL="email address"
+NGWAF_TOKEN="XXXX"
+FASTLY_API_KEY="XXXX"
