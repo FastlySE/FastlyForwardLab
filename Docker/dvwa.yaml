@@ -1,0 +1,82 @@
+version: '3.3'
+services:
+    student1:
+        ports:
+            - '8081:80'
+        image: citizenstig/dvwa
+    student2:
+        ports:
+            - '8082:80'
+        image: citizenstig/dvwa
+    student3:
+        ports:
+            - '8083:80'
+        image: citizenstig/dvwa
+    student4:
+        ports:
+            - '8084:80'
+        image: citizenstig/dvwa
+    student5:
+        ports:
+            - '8085:80'
+        image: citizenstig/dvwa
+    student6:
+        ports:
+            - '8086:80'
+        image: citizenstig/dvwa
+    student7:
+        ports:
+            - '8087:80'
+        image: citizenstig/dvwa
+    student8:
+        ports:
+            - '8088:80'
+        image: citizenstig/dvwa
+    student9:
+        ports:
+            - '8089:80'
+        image: citizenstig/dvwa
+    student10:
+        ports:
+            - '8090:80'
+        image: citizenstig/dvwa
+    student11:
+        ports:
+            - '8091:80'
+        image: citizenstig/dvwa
+    student12:
+        ports:
+            - '8092:80'
+        image: citizenstig/dvwa
+    student13:
+        ports:
+            - '8093:80'
+        image: citizenstig/dvwa
+    student14:
+        ports:
+            - '8094:80'
+        image: citizenstig/dvwa
+    student15:
+        ports:
+            - '8095:80'
+        image: citizenstig/dvwa
+    student16:
+        ports:
+            - '8096:80'
+        image: citizenstig/dvwa
+    student17:
+        ports:
+            - '8097:80'
+        image: citizenstig/dvwa
+    student18:
+        ports:
+            - '8098:80'
+        image: citizenstig/dvwa
+    student19:
+        ports:
+            - '8099:80'
+        image: citizenstig/dvwa
+    student20:
+        ports:
+            - '8100:80'
+        image: citizenstig/dvwa
