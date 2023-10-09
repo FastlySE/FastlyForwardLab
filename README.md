@@ -1,4 +1,4 @@
-# FastlyForwardLab
+# Fastly Forward NGWAF Security Tech Lab setup
 Config files for the Fastly Forward Tech Workshop
 
 To setup the core Fastly services, see the EdgeWAFSetup files to deploy the Edge WAF and associate to the NGWAF Workspace.  
