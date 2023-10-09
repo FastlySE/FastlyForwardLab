@@ -7,7 +7,7 @@ To setup the target DVWA Web application used in the lab, use the docker compose
 
 # Students
 
-For **Students** taking this workshop, you only need to deploy the WAF policy in the WAF_Policy section.
+For **Students** taking this workshop, you only need to deploy the WAF policy in the WAF_Policy directory.
 
 The lab guide is in the Wiki, also located here:  
 **https://github.com/FastlySE/FastlyForwardLab/wiki/Fastly-Forward-Security-Workshop-2023-%E2%80%90-Sydney-Australia**
